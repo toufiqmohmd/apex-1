@@ -51,7 +51,7 @@ In this task, you will learn how to leverage Oracle APEX's Generative AI Service
     **Prompt 1:**
     ```
     <copy>
-    Create a data model for a retail bank's customer support app with entities for Customers, their Accounts, and the Support Tickets opened for those customers.
+    Create a data model for customer support app for a retail bank with entities for Customers, their Accounts, and the Support Tickets opened for those customers.
     </copy>
     ```
 
