@@ -88,31 +88,40 @@ In this task, you will create an application using Generative AI and enter natur
 
     !["third prompt"](images/enable-feedback.png "")
 
-7. Once you are satisfied with the AI generated application blueprint, click **Create Application**.
+7. Check if the blueprint already contains a dashboard page; if not, add a dashboard page to track customer support tickets.
+
+    Prompt 4:
+    ```
+    <copy>
+    Add a Dashboard page to track customer support tickets.
+    </copy>
+    ```
+
+8. Once you are satisfied with the AI generated application blueprint, click **Create Application**.
 
     !["sixth prompt"](images/create-new-appp.png "")
 
-    *Important Note:* The pages might differ based on the prompt. Make sure the blueprint includes a **Support Dashboard** page that you can later set as the Home page, a **Faceted Search** page on **CS\/\_CASES**, and a **Form** page on **CS\/\_CASES**. If something is missing, add another natural-language prompt before generating the app.*
+    *Important Note:* The pages might differ based on the prompt. Make sure the blueprint includes a **Support Dashboard** page that you can later set as the Home page, a **Faceted Search** page on **CS\_CASES**, and a **Form** page on **CS\_CASES**. If something is missing, add another natural-language prompt before generating the app.*
 
-8. On the Create an Application page, locate the generated **Dashboard** page (for example, **Insights Hub**) and click **Edit**.
+10. On the Create an Application page, locate the generated **Dashboard** page (for example, **Insights Hub**) and click **Edit**.
 
     ![select appearance](images/edit-dash.png " ")
 
-9. In the **Add Dashboard Page** dialog, rename the page to **Support Dashboard**.
+11. In the **Add Dashboard Page** dialog, rename the page to **Support Dashboard**.
 
-10. Under **Advanced**, enable **Set as Home Page** so the Support Dashboard becomes the landing page, then click **Save Changes**.
+12. Under **Advanced**, enable **Set as Home Page** so the Support Dashboard becomes the landing page, then click **Save Changes**.
 
     ![select appearance](images/update-dash.png " ")
 
-11. Update the application name to **Customer Support Portal** and click on the app icon to upload a custom support icon.
+13. Update the application name to **Customer Support Portal** and click on the app icon to upload a custom support icon.
 
     ![select appearance](images/set-icon.png " ")
 
-12. Download the icon from **[here](https://c4u04.objectstorage.us-ashburn-1.oci.customer-oci.com/p/EcTjWk2IuZPZeNnD_fYMcgUhdNDIDA6rt9gaFj_WZMiL7VvxPBNMY60837hu5hga/n/c4u04/b/livelabsfiles/o/labfiles%2FAICAMP.png)** (or substitute your organization’s own asset). Click **Upload your own icon**, choose the image, and click **Save Icon**.
+14. Download the icon from **[here](https://c4u04.objectstorage.us-ashburn-1.oci.customer-oci.com/p/EcTjWk2IuZPZeNnD_fYMcgUhdNDIDA6rt9gaFj_WZMiL7VvxPBNMY60837hu5hga/n/c4u04/b/livelabsfiles/o/labfiles%2FAICAMP.png)** (or substitute your organization’s own asset). Click **Upload your own icon**, choose the image, and click **Save Icon**.
 
     ![select appearance](images/save-icon.png " ")
 
-13. Make sure that the **Progressive Web App** and **Feedback** features remain enabled so the support app is installable and gathers agent/customer input. Then, click **Create Application**.
+15. Make sure that the **Progressive Web App** and **Feedback** features remain enabled so the support app is installable and gathers agent/customer input. Then, click **Create Application**.
 
     ![click create application](images/create-event-app.png " ")
 
