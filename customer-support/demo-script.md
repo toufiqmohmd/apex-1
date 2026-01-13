@@ -1,32 +1,32 @@
 # Customer Support Application Demo Script
 
 ## Demo Overview
-**Title:** Building an AI-Powered Customer Support Portal with Oracle APEX
+**Title:** Building a Customer Support Portal with Oracle APEX and AI
 
 **Duration:** 45-60 minutes
 
 **Audience:** Developers, IT Leaders, Business Stakeholders
 
 **Key Takeaways:**
-- See how AI accelerates APEX development from concept to production
-- Experience the complete customer support workflow
-- Understand the blend of low-code development and AI assistance
+- Learn APEX AI configuration and usage
+- See AI-assisted data model generation
+- Understand AI-powered application creation
+- Explore APEX Assistant for UI enhancement
+- Review AI chat assistant and text generation features
 
 ---
 
 ## Introduction (2 minutes)
 
-**Narrator:** "Welcome everyone! Today, we're going to witness something remarkable. In just 60 minutes, we'll build a complete, AI-powered customer support application using Oracle APEX. This isn't just any demo - it's a live demonstration of how generative AI is revolutionizing application development.
+**Narrator:** "Today we'll build a customer support application using Oracle APEX. The application will manage customer tickets, agents, accounts, and include AI-powered features.
 
-Our goal: Create a modern customer support portal for a retail bank that manages customer tickets, agents, accounts, and provides intelligent AI assistance.
-
-Let's start with the foundation - configuring our AI services."
+We'll start by configuring AI services to enable APEX AI capabilities."
 
 ---
 
 ## Section 1: Configure AI Service (3 minutes)
 
-**Narrator:** "First, we need to set up our AI capabilities. APEX supports multiple AI providers - today I'll show you both OCI Generative AI and OpenAI setup."
+**Narrator:** "Next, we'll configure the AI service for APEX. We'll navigate to Workspace Utilities → Generative AI, configure either OCI Generative AI or OpenAI, test the connection, and enable it for App Builder."
 
 *[Show both configuration paths]*
 
@@ -36,16 +36,11 @@ Let's start with the foundation - configuring our AI services."
 3. Test connection
 4. Enable "Used by App Builder"
 
-**Key Points to Highlight:**
-- "APEX makes AI setup as simple as configuring a database connection"
-- "One configuration enables AI across the entire workspace"
-- "Support for enterprise-grade AI services like OCI Generative AI"
-
 ---
 
 ## Section 2: Generate Data Model with AI (5 minutes)
 
-**Narrator:** "Now comes the magic! Instead of manually designing tables for customers, accounts, agents, and support tickets, we'll use AI to generate our complete data model."
+**Narrator:** "Next, we'll generate the data model using AI. We'll navigate to SQL Workshop → Utilities → Create Data Model Using AI, accept the AI consent, enter natural language prompts to define the entities, generate the SQL script, create sample data with APEX Assistant, and execute the data model."
 
 *[Navigate to SQL Workshop → Utilities → Create Data Model Using AI]*
 
@@ -59,16 +54,11 @@ Let's start with the foundation - configuring our AI services."
 4. Use APEX Assistant to generate sample data
 5. Run the complete data model
 
-**Key Points to Highlight:**
-- "Watch how AI understands business requirements and generates proper database design"
-- "The AI creates not just tables, but relationships, constraints, and even triggers"
-- "APEX Assistant helps generate realistic sample data automatically"
-
 ---
 
 ## Section 3: Create Application with Generative AI (8 minutes)
 
-**Narrator:** "With our data model ready, let's create the entire application using AI. No coding required - just natural language descriptions."
+**Narrator:** "Next, we'll create the application using generative AI. We'll navigate to App Builder → Create → Create App Using Generative AI, refresh the data dictionary, enter prompts to define the required pages and features, customize the appearance, and run the application."
 
 *[Navigate to App Builder → Create → Create App Using Generative AI]*
 
@@ -82,16 +72,11 @@ Let's start with the foundation - configuring our AI services."
 3. Customize appearance (upload support icon, set theme)
 4. Run the application
 
-**Key Points to Highlight:**
-- "AI generates complete, functional pages based on your descriptions"
-- "The application includes navigation, forms, reports, and dashboards"
-- "Everything is immediately runnable with sample data"
-
 ---
 
 ## Section 4: Enhanced Charts with AI (3 minutes)
 
-**Narrator:** "Now let's see how APEX Assistant helps create insightful charts and even database packages."
+**Narrator:** "Next, we'll enhance charts using AI. We'll navigate to the dashboard and SQL Commands, use APEX Assistant to generate chart queries, and create a PL/SQL package for ticket updates management."
 
 *[Navigate to dashboard and SQL Commands]*
 
@@ -99,15 +84,11 @@ Let's start with the foundation - configuring our AI services."
 1. Use APEX Assistant to generate chart queries
 2. Create PL/SQL package for ticket updates management
 
-**Key Points to Highlight:**
-- "AI assistance extends to data visualization and backend logic"
-- "Complete development workflow enhanced by AI"
-
 ---
 
 ## Section 5: Enhance UI with APEX Assistant (7 minutes)
 
-**Narrator:** "Now let's see how APEX Assistant enhances our user interface. We'll transform a basic report into a modern, interactive content row layout."
+**Narrator:** "Next, we'll enhance the UI using APEX Assistant. We'll navigate to the Tickets page in Page Designer, convert the classic report to Content Row layout, enhance the SQL query with agent names and account types, generate HTML for rich descriptions, add title links and badges, and customize the theme using Theme Roller."
 
 *[Navigate to the Tickets page in Page Designer]*
 
@@ -118,16 +99,11 @@ Let's start with the foundation - configuring our AI services."
 4. Add title links and badges
 5. Customize theme with Theme Roller (Redwood Light, Ocean pillar)
 
-**Key Points to Highlight:**
-- "APEX Assistant generates both SQL and HTML using natural language"
-- "Theme Roller provides instant visual customization"
-- "The result is a modern, mobile-friendly interface"
-
 ---
 
 ## Section 6: Build AI-powered Support Chat Assistant (8 minutes)
 
-**Narrator:** "Let's add intelligence to our application with an AI-powered support assistant that can answer questions about tickets using our database."
+**Narrator:** "Next, we'll build an AI-powered support chat assistant. We'll create an AI configuration with RAG, define a RAG source with SQL query for ticket data, add a Ticket Assistant button to the page, configure the Show AI Assistant dynamic action, and test the chatbot with queries about tickets."
 
 *[Create AI Configuration and RAG Source]*
 
@@ -140,16 +116,11 @@ Let's start with the foundation - configuring our AI services."
    - "List high priority tickets"
    - "Show tickets assigned to Agent Rita"
 
-**Key Points to Highlight:**
-- "RAG ensures the AI only uses your business data, not general web knowledge"
-- "The assistant provides contextual, database-driven responses"
-- "This creates intelligent, context-aware user experiences"
-
 ---
 
 ## Section 7: Generate Ticket Summaries with AI (6 minutes)
 
-**Narrator:** "Finally, let's implement AI-powered text generation that automatically creates ticket summaries based on ticket details."
+**Narrator:** "Finally, we'll generate ticket summaries using AI. We'll navigate to the ticket form page, add a Generate Summary button, create a RAG source for ticket details, configure the Generate Text with AI dynamic action, and test by generating summaries for different tickets."
 
 *[Navigate to ticket form page]*
 
@@ -159,26 +130,19 @@ Let's start with the foundation - configuring our AI services."
 3. Configure "Generate Text with AI" dynamic action
 4. Test by generating summaries for different tickets
 
-**Key Points to Highlight:**
-- "AI generates professional, contextual summaries automatically"
-- "Reduces manual work while maintaining quality"
-- "Shows how AI can enhance productivity across business processes"
-
 ---
 
 ## Conclusion & Q&A (3 minutes)
 
-**Narrator:** "In just 60 minutes, we've built a complete, AI-powered customer support application. From data model generation to intelligent chat assistants, we've seen how Oracle APEX combines the productivity of low-code development with the power of generative AI.
+**Narrator:** "In 60 minutes, we've built a customer support application using Oracle APEX with AI features. We covered data model generation, application creation, UI enhancement, chat assistant implementation, and ticket summary generation.
 
-**What we've accomplished:**
-- ✅ Complete data model generated with AI
-- ✅ Full application created using natural language
-- ✅ Modern UI enhanced with AI assistance
-- ✅ Intelligent chat assistant with RAG
+**What we accomplished:**
+- ✅ Data model generated with AI
+- ✅ Application created using generative AI
+- ✅ UI enhanced with APEX Assistant
+- ✅ AI-powered chat assistant with RAG
 - ✅ Automated ticket summary generation
-- ✅ Professional charts and database objects
-
-This is the future of application development - fast, intelligent, and accessible to all developers."
+- ✅ Charts and database objects created with AI"
 
 ---
 
@@ -200,12 +164,7 @@ This is the future of application development - fast, intelligent, and accessibl
 - Pre-recorded segments for complex setups
 - Alternative scenarios if AI responses vary
 
-**Audience Engagement:**
-- Ask what business processes they'd AI-ify
-- Poll on most impressive feature
-- Discuss enterprise readiness
-
-**Key Messages:**
-- "AI doesn't replace developers - it supercharges them"
-- "From idea to production in hours, not months"
-- "Enterprise-grade security and governance maintained"
+**Demo Notes:**
+- Focus on technical implementation steps
+- Highlight APEX AI capabilities and configuration
+- Demonstrate practical usage of each feature
