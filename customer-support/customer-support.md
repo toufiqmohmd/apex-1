@@ -75,7 +75,7 @@ Labs:
 6. Actions > Create Action > Position: Title Link > Link to form page.
 
 ### Task 2: Enhance Appearance
-1. Runtime Developer Toolbar > Customize > Theme Roller > Select Redwood Light > Pillar: Rose, Layout: Floating > Appearance settings > Save as Customer Support Theme.
+1. Runtime Developer Toolbar > Customize > Theme Roller > Select Redwood Light > Pillar: Ocean, Layout: Floating > Appearance settings > Save as Customer Support Theme.
 
 ## Lab 5: Create Support Chat Assistant
 

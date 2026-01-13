@@ -195,5 +195,5 @@ In this lab, you learned how to use the integrated AI Chat capability (APEX Assi
 
 ## Acknowledgments
 
-- **Author** - Ankita Beri, Senior Product Manager
-- **Last Updated By/Date** - Ankita Beri, Senior Product Manager, November 2025
+- **Author** - Toufiq Mohammed, Principal Product Manager
+- **Last Updated By/Date** - Toufiq Mohammed, Principal Product Manager, January 2026

@@ -220,7 +220,7 @@ In this task, you will use Theme Roller to quickly transform the appearance of a
 
 4. Under **Redwood Options**, select the following:
 
-    - Pillar: **Rose**
+    - Pillar: **Ocean**
 
     - Layout: **Floating**
 
@@ -250,5 +250,5 @@ In this lab, you transformed a classic report into a content row layout, improvi
 
 ## Acknowledgments
 
-- **Author** - Ankita Beri, Senior Product Manager
-- **Last Updated By/Date** - Ankita Beri, Senior Product Manager, November 2025
+- **Author** - Toufiq Mohammed, Principal Product Manager
+- **Last Updated By/Date** - Toufiq Mohammed, Principal Product Manager, January 2026

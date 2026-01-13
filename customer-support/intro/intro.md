@@ -106,5 +106,5 @@ If you are stuck or the App is not working as expected, you can download and ins
 
 ## Acknowledgments
 
-- **Author** - Ankita Beri, Senior Product Manager
-- **Last Updated By/Date** - Ankita Beri, Senior Product Manager, November 2025
+- **Author** - Toufiq Mohammed, Principal Product Manager
+- **Last Updated By/Date** - Toufiq Mohammed, Principal Product Manager, January 2026
