@@ -16,7 +16,7 @@ Total Workshop Time: 60 minutes
 
 ### Objectives
 
-- Create a Customer Support data model using Generative AI (or import the provided SQL script).
+- Create a Customer Support data model using Generative AI.
 - Generate an application *blueprint* using APEX AI Assistant tailored to support tickets, customers, and agents.
 - Improve the application's UI and UX using the APEX AI Assistant to generate SQL and HTML directly in the Code Editor.
 - Build an AI-powered Ticket Assistant that uses RAG to answer ticket and customer-related queries through a chat interface.
