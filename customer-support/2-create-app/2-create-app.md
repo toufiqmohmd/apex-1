@@ -58,7 +58,7 @@ In this task, you will create an application using Generative AI and enter natur
 
     ```
     <copy>
-    Create a customer support portal for a banking customer. Create pages to manage Customers, Accounts, and Cases.
+    Create a customer support portal for a banking customer. Create pages to manage Customers, Accounts, and Tickets.
     </copy>
     ```
 
@@ -71,7 +71,7 @@ In this task, you will create an application using Generative AI and enter natur
     Prompt 2:
     ```
     <copy>
-    Make Cases searchable using faceted search.
+    Make Tickets searchable using faceted search.
     </copy>
     ```
 
@@ -82,7 +82,7 @@ In this task, you will create an application using Generative AI and enter natur
     Prompt 3:
     ```
     <copy>
-    Add a form page to edit Cases.
+    Add a form page to edit Tickets.
     </copy>
     ```
 
@@ -101,7 +101,7 @@ In this task, you will create an application using Generative AI and enter natur
 
     !["sixth prompt"](images/create-new-appp.png "")
 
-    *Important Note:* The pages might differ based on the prompt. Make sure the blueprint includes a **Support Dashboard** page that you can later set as the Home page, a **Faceted Search** page on **CS\_CASES**, and a **Form** page on **CS\_CASES**. If something is missing, add another natural-language prompt before generating the app.*
+    *Important Note:* The pages might differ based on the prompt. Make sure the blueprint includes a **Support Dashboard** page that you can later set as the Home page, a **Faceted Search** page on **CS\_TICKETS**, and a **Form** page on **CS\_TICKETS**. If something is missing, add another natural-language prompt before generating the app.*
 
 10. On the Create an Application page, locate the generated **Dashboard** page (for example, **Insights Hub**) and click **Edit**.
 
@@ -141,8 +141,8 @@ In this task, you will create an application using Generative AI and enter natur
 
     - Review the **Support Dashboard** home page and verify top-level KPIs render correctly.
     - Navigate to the **Customers**, **Accounts**, and any other data-model pages (such as **Channels**, **Priorities**, or **Service Levels**) to ensure record sets and quick actions work as expected.
-    - Open the **Cases** faceted search page and try different filters to confirm the AI-generated facets align with your schema.
-    - Use the **Case maintenance form** to view or edit a record and confirm the layout meets your agents’ needs.
+    - Open the **Tickets** faceted search page and try different filters to confirm the AI-generated facets align with your schema.
+    - Use the **Ticket maintenance form** to view or edit a record and confirm the layout meets your agents’ needs.
 
     Records are pre-populated across these pages so you can validate layouts, filters, and forms without additional data entry. Update or extend the data later to reflect your real customer-support scenarios.
 

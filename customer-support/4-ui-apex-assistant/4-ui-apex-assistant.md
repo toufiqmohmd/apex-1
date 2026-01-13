@@ -18,11 +18,11 @@ By the end of this lab, you will be able to:
 
 ## Task 1: Convert a Classic Report into a Content Row
 
-1. From the browser tab where the app is running, navigate to your faceted search page. In this lab, the page is called *Case Finder*. The name might differ because the app was generated using AI.
+1. From the browser tab where the app is running, navigate to your faceted search page. In this lab, the page is called *Ticket Finder*. The name might differ because the app was generated using AI.
 
     !["Click App Builder"](images/discover-events.png "")
 
-    >Note: Since the page name is AI-generated, it may differ. This is the Faceted Search page created on the *CS_CASES* table.
+    >Note: Since the page name is AI-generated, it may differ. This is the Faceted Search page created on the *CS_TICKETS* table.
 
 2. From the Developer Toolbar, click **Page 3**.
 
@@ -30,7 +30,7 @@ By the end of this lab, you will be able to:
 
     >Note: Page number may vary depending on your application.
 
-3. From the left pane, select **Cases** region. In the Property Editor, select the following:
+3. From the left pane, select **Tickets** region. In the Property Editor, select the following:
 
     - Identification > Type: **Content Row**
 
@@ -57,24 +57,24 @@ By the end of this lab, you will be able to:
 
     ```
     <copy>
-    select ee.id,
-       ee.venue_id,
-       evv.name           as venue_name,
-       ee.event_type_id,
-       eet.name           as event_type_name,
-       ee.name,
-       ee.description,
-       ee.start_date,
-       ee.end_date,
-       ee.created,
-       ee.created_by,
-       ee.updated,
-       ee.updated_by
-    from cs_cases         ee
-    join ev_venues        evv
-    on ee.venue_id = evv.id
-    join ev_event_types   eet
-    on ee.event_type_id = eet.id
+    select t.ticket_id as id,
+       t.ticket_number,
+       t.subject,
+       t.description,
+       t.status,
+       t.priority,
+       t.channel,
+       a.agent_name,
+       acc.account_type,
+       t.created_at as created,
+       t.created_by,
+       t.updated_at as updated,
+       t.updated_by
+    from cs_tickets         t
+    left join cs_agents     a
+    on t.assigned_agent_id = a.agent_id
+    left join cs_accounts   acc
+    on t.account_id = acc.account_id
     </copy>
     ```
 
@@ -88,7 +88,7 @@ By the end of this lab, you will be able to:
 
     - Under Settings:
 
-        - Overline: **&CASE_NUMBER.**
+        - Overline: **&TICKET_NUMBER.**
 
         - Title: **&SUBJECT.**
 
@@ -167,7 +167,7 @@ By the end of this lab, you will be able to:
 
     !["Click App Builder"](images/view-content-row.png "")
 
-14. Next, let's add a hyperlink to the title to open a form page. Switch to the Page Designer tab. In the left pane, under **Cases** region, right-click **Actions** and click **Create Action**.
+14. Next, let's add a hyperlink to the title to open a form page. Switch to the Page Designer tab. In the left pane, under **Tickets** region, right-click **Actions** and click **Create Action**.
 
     !["Click App Builder"](images/create-action.png "")
 

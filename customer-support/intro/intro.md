@@ -2,13 +2,13 @@
 
 ## About this Workshop
 
-In this workshop, you will build a modern and responsive **Customer Support Application** using Generative Development in Oracle APEX. The experience demonstrates how Oracle APEX pairs low-code productivity with AI-driven tooling so you can deliver high-quality enterprise apps quickly, even when the underlying processes—like support case management—are complex.
+In this workshop, you will build a modern and responsive **Customer Support Application** using Generative Development in Oracle APEX. The experience demonstrates how Oracle APEX pairs low-code productivity with AI-driven tooling so you can deliver high-quality enterprise apps quickly, even when the underlying processes—like support ticket management—are complex.
 
-You will begin by generating a **customer support data model using natural language**, establishing tables for customers, accounts, agents, cases, timelines, and interactions. Once the schema is created (or imported from the provided `cs_data_model.sql` script), you will again use natural language to generate an initial application blueprint, showcasing how AI can accelerate the early stages of development.
+You will begin by generating a **customer support data model using natural language**, establishing tables for customers, accounts, agents, support tickets, timelines, and interactions. Once the schema is created (or imported from the provided `cs_data_model.sql` script), you will again use natural language to generate an initial application blueprint, showcasing how AI can accelerate the early stages of development.
 
-Next, you will enhance the application by using the **APEX Assistant** to generate SQL and HTML directly within the APEX Code Editor, quickly shaping both data access and UI presentation for case lists.
+Next, you will enhance the application by using the **APEX Assistant** to generate SQL and HTML directly within the APEX Code Editor, quickly shaping both data access and UI presentation for support ticket lists.
 
-As you proceed, you will integrate advanced AI capabilities into the application. This includes building an **AI-powered Case Assistant** that uses **Retrieval-Augmented Generation (RAG)** to answer case-related questions (such as customer details, account types, and open issues) through an interactive **chat interface**. You will also implement a feature that uses the **Generate Text with AI** dynamic action to automatically draft case summaries or resolution notes.
+As you proceed, you will integrate advanced AI capabilities into the application. This includes building an **AI-powered Support Assistant** that uses **Retrieval-Augmented Generation (RAG)** to answer support ticket-related questions (such as customer details, account types, and open issues) through an interactive **chat interface**. You will also implement a feature that uses the **Generate Text with AI** dynamic action to automatically draft support ticket summaries or resolution notes.
 
 By the end of this workshop, you will understand how Oracle APEX brings together AI assistance, data-driven development, and enterprise-grade application architecture to help you build intelligent customer support solutions quickly and effectively.
 
@@ -17,10 +17,10 @@ Total Workshop Time: 60 minutes
 ### Objectives
 
 - Create a Customer Support data model using Generative AI (or import the provided SQL script).
-- Generate an application *blueprint* using APEX AI Assistant tailored to support cases, customers, and agents.
+- Generate an application *blueprint* using APEX AI Assistant tailored to support tickets, customers, and agents.
 - Improve the application's UI and UX using the APEX AI Assistant to generate SQL and HTML directly in the Code Editor.
-- Build an AI-powered Case Assistant that uses RAG to answer case and customer-related queries through a chat interface.
-- Add a feature to generate case summaries or resolution notes using AI through the *Generate Text with AI* dynamic action.
+- Build an AI-powered Ticket Assistant that uses RAG to answer ticket and customer-related queries through a chat interface.
+- Add a feature to generate ticket summaries or resolution notes using AI through the *Generate Text with AI* dynamic action.
 
 ## Prerequisites
 
@@ -56,8 +56,8 @@ Total Workshop Time: 60 minutes
 | 2 |[Create a Data Model using AI](?lab=1-create-data-model-using-ai) | 4 minutes |
 | 3 |[Create the Application using Generative AI](?lab=2-create-app) | 4 minutes |
 | 4|[Enhance UI with APEX Assistant](?lab=4-ui-apex-assistant) | 4 minutes |
-| 5 |[Create a Case Chat Assistant](?lab=5-chat-bot) | 5 minutes |
-| 6 | [Generate Case Summary with AI](?lab=6-generate-text) | 4 minutes |
+| 5 |[Create a Ticket Chat Assistant](?lab=5-chat-bot) | 5 minutes |
+| 6 | [Generate Ticket Summary with AI](?lab=6-generate-text) | 4 minutes |
 | 7 |[OPTIONAL - Enhance Charts and Database Objects with APEX Assistant](?lab=3-apex-assistant) | 5 minutes |
 
 ### **Let's Get Started!**
