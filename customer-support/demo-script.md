@@ -125,7 +125,7 @@ Let's start with the foundation - configuring our AI services."
 
 ---
 
-## Section 6: Build AI Support Chat Assistant (8 minutes)
+## Section 6: Build AI-powered Support Chat Assistant (8 minutes)
 
 **Narrator:** "Let's add intelligence to our application with an AI-powered support assistant that can answer questions about tickets using our database."
 
@@ -149,17 +149,20 @@ Let's start with the foundation - configuring our AI services."
 
 ## Section 7: Generate Ticket Summaries with AI (6 minutes)
 
-**Narrator:** "As a bonus, let's see how APEX Assistant helps create insightful charts and even database packages."
+**Narrator:** "Finally, let's implement AI-powered text generation that automatically creates ticket summaries based on ticket details."
 
-*[Navigate to dashboard and SQL Commands]*
+*[Navigate to ticket form page]*
 
 **Live Demo Steps:**
-1. Use APEX Assistant to generate chart queries
-2. Create PL/SQL package for ticket updates management
+1. Add "Generate Summary" button
+2. Create RAG source for ticket details
+3. Configure "Generate Text with AI" dynamic action
+4. Test by generating summaries for different tickets
 
 **Key Points to Highlight:**
-- "AI assistance extends to data visualization and backend logic"
-- "Complete development workflow enhanced by AI"
+- "AI generates professional, contextual summaries automatically"
+- "Reduces manual work while maintaining quality"
+- "Shows how AI can enhance productivity across business processes"
 
 ---
 
