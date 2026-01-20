@@ -92,7 +92,9 @@ Now we are going to extend the app functionality by adding a fully functional AI
 **Demo Steps:**
 1. Create AI Configuration with RAG (Retrieval-Augmented Generation)
 2. Define RAG Source with SQL query for ticket data
-   - Use APEX AI Assistant to generate SQL query for the RAG source: "Fetch customer support ticket details such as ticket number, subject, description, status, priority, channel, agent name, customer name, and account type."
+   - Name: Tickets Data
+   - Description: Provides Details about customer tickets
+   - Use APEX AI Assistant to generate SQL query for the RAG source: "Write a query to fetch customer support ticket details such as ticket number, subject, description, status, priority, channel, agent name, customer name, and account type."
 3. Add "Ticket Assistant" button to the page
 4. Configure Show AI Assistant dynamic action to use the AI Configuration
 5. Test the chatbot with questions like:

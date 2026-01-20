@@ -131,6 +131,10 @@ By the end of this lab, you will be able to:
 
     - Source > SQL Query: Click **APEX Assistant**
 
+    - Server-side Condition > Type: **PL/SQL Function Body returning Boolean**
+
+    - Server-side Condition > PL/SQL Function Body returning Boolean: **RETURN :APP_PAGE_ID = 5;**
+
 8. In the APEX Assistant box, enter the following prompt and press enter:
 
     Prompt 1:
